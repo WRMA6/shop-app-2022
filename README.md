@@ -4,7 +4,11 @@
 This app was built using Node.js and MongoDB. It supports the CRUD functionality that was required, as well as the extra feature of filtering by fields.
 
 ### How to run:
-You will need [Node.js](https://nodejs.org/en/download/) to run this application. Once that is installed, run ```npm start``` to start the application. The web interface should show up when you visit ```localhost:3000``` in your browser.
+##### Option 1
+Visit [my Heroku deployment](https://shop-app-2022-internship.herokuapp.com/).
+
+##### Option 2
+Install [Node.js](https://nodejs.org/en/download/) to run this application. Once that is installed, run ```npm start``` to start the application. The web interface should show up when you visit ```localhost:3000``` in your browser.
 
 Optionally, you can specifiy your own MongoDB database in the ```config/``` folder. For convenience, I have already left a working demo file in the folder.
 
