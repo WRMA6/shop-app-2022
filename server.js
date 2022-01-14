@@ -6,7 +6,7 @@ const expressLogger = expressPino(logs.logger);
 const bodyParser = require('body-parser');
 const baseRouter = require('./routes/base/router');
 const db = require('./js/db');
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 async function main () {
     if (process.env.NODE_ENV != 'test') {
