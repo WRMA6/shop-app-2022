@@ -1,4 +1,4 @@
-# Shopify 2022 summer internship challenge submission
+# 2022 summer internship challenge submission
 
 ### Overview
 This app was built using Node.js and MongoDB. It supports the CRUD functionality that was required, as well as the extra feature of filtering by fields.
